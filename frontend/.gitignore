@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production build
+build/
+dist/
+out/
+
+# Testing
+coverage/
+coverage-final.json
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+lib-cov
+*.lcov
+
+# Optional npm cache directory
+.npm
+
+# System files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+npm run build
+npm run build:css
+npm run test -- --coverage
+
+# React specific
+.vs/
+.vscode/
+
+# Exclude the build folder (this is generated from source)
+build/
+
+# Cache
+.cache/
